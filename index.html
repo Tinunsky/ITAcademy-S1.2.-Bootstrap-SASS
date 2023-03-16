@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row"> <!-- 12s row 1 -->
             <div class="col-1 border"> 1</div>
             <div class="col-1 border"> 1</div>
@@ -25,7 +25,9 @@
             <div class="col-1 border"> 1</div>
         </div>
         <div class="row"> <!--navbar-->
-            <nav class="col-6 border">LOGO</nav>
+            <nav class="col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                <img src="/images/logo-bookmark.svg" class="image-fluid" alt="logo-bookmark">
+            </nav>
             <nav class="col-6 border">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
@@ -38,7 +40,7 @@
                       <a class="nav-link" href="#">CONTACT</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">LOGIN</a>
+                        <button type="button" class="btn btn-outline-danger">LOGIN</a>
                     </li>
                 </ul>
             </nav>
@@ -46,11 +48,11 @@
             <div class="col-6 border">
                 <h1>A Simple Bookmark Manager</h1> 
                 <p class="h6">A clean and simple interface to organise your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-                <button type="button" class="btn">Get it on Chrome</button>
-                <button type="button" class="btn">Get it on Firefox</button>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Get it on Chrome</button>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Get it on Firefox</button>
             </div>
-            <div class="col-6 border">
-                <div class="image">IMAGE</div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                <img src="/images/illustration-hero.svg" class="image-fluid" alt="tab1">
             </div>
         <div class="row"> <!--3d line-->
             <div class="col-12">
@@ -58,8 +60,8 @@
                 <p class="fs-6 fw-light lh-sm">Our aim is to make it quick and easy for you to access your favarite websites. Your bookmarks sync between your device so you can access them on the go. 3 dropdowns</p>
             </div>
         <div class="row"> <!--4s line-->
-            <div class="col-6 border">
-                <div class="image">IMAGE</div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                <img src="/images/illustration-features-tab-1.svg" class="image-fluid" alt="tab2">
             </div>
             <div class="col-6 border">Bookmark in one check. Organize your bookmarks hovewer you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites. 
             <button type="button" class="btn btn-primary">More Info</button>
@@ -69,14 +71,21 @@
         </div>
     </div>
         <div class="row"><!--6s line-->
-            <div class="col align-self-start">
-                    IMAGE 1
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 align-self-start"> <img src="/images/logo-chrome.svg" class="image" alt="chrome">
+                <h1>Add to Chrome</h1>
+                <p class="h6">Minimum version 62</p>
+                <a href="#" class="btn btn-primary disabled" tabindex="-1" aria-disabled="true" role="button" data-bs-toggle="button">Add & Install Extensions</a>
+
             </div>
-            <div class="col align-self-center">
-                    IMAGE 2
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 align-self-center"><img src="/images/logo-firefox.svg" class="image" alt="firefox">
+                <h1>Add to Firefox</h1>
+                <p class="h6">Minimum version 55</p>
+                <a href="#" class="btn btn-primary disabled" tabindex="-1" aria-disabled="true" role="button" data-bs-toggle="button">Add & Install Extensions</a>
             </div>
-            <div class="col align-self-end">
-                    IMAGE 3
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 align-self-end"><img src="/images/logo-opera.svg" class="image" alt="opera">
+                <h1>Add to Opera</h1>
+                <p class="h6">Minimum version 46</p>
+                <a href="#" class="btn btn-primary disabled" tabindex="-1" aria-disabled="true" role="button" data-bs-toggle="button">Add & Install Extensions</a>
             </div>
         </div>          
     </div>
