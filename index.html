@@ -13,7 +13,6 @@
 
 <body>
     <header class="container sticky-top">
-        
         <div class="row mb-5">
 
             <!--  <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,20 +36,10 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <img src="/images/logo-bookmark.svg" class="image" alt="logo-bookmark">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
+
+
+
+                    <!--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown
@@ -63,187 +52,215 @@
                                     </li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
+                            </li>-->
 
 
-                        <form class="d-flex">
+                    <form class="d-flex">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item me-4">
+                                    <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" href="#">PRICING</a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link " href="#">LOGIN</a>
+                                </li>
+                            </ul>
 
                             <button class="btn btn-outline-danger" type="submit">LOGIN</button>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
-            </nav>
+        </div>
+        </nav>
 
 
         </div>
     </header>
 
     <main class="container p-5">
-        
-        <div class="row d-flex justify-content-center flex-wrap-reverse">
 
-            <div class="col-sm-12 col-lg-5 p-2 lh-sm fw-normal text-center text-lg-start">
-                <h2>A Simple Bookmark Manager</h2>
-                <p class="fs-6 text-muted mt-3">A clean and simple interface to organise your favorite websites. Open a
-                    new browser tab and see your sites load instantly. Try it for free.</p>
+        <section class="bookmark-manager">
+            <div class="row d-flex justify-content-center flex-wrap-reverse">
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="button" autocomplete="off"
-                            aria-pressed="true">Get it on Chrome</button>
-                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="button" autocomplete="off"
-                            aria-pressed="true">Get it on Firefox</button>
+                <div class="col-sm-12 col-lg-5 p-2 lh-sm fw-normal text-center text-lg-start">
+                    <h2>A Simple Bookmark Manager</h2>
+                    <p class="fs-6 text-muted mt-3">A clean and simple interface to organise your favorite websites.
+                        Open a
+                        new browser tab and see your sites load instantly. Try it for free.</p>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="button"
+                                autocomplete="off" aria-pressed="true">Get it on Chrome</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="button"
+                                autocomplete="off" aria-pressed="true">Get it on Firefox</button>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col-sm-12 col-lg-7 ps-5">
+                    <img src="/images/illustration-hero.svg" class="img-fluid" alt="tab1">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="features">
+
+
+            <section class="feature-info">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-sm-12 col-lg-6 p-2 m-4 text-center">
+                        <h3>Features</h3>
+                        <p class="fs-6 text-muted mt-3">Our aim is to make it quick and easy for you to access your
+                            favourite
+                            websites. Your bookmarks sync between your device so you can access them on the go.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="feature-tabs">
+                <div class="row align-items-center justify-content-center">
+                    <nav class="col-sm-12 col-lg-8 text-center">
+                        <ul class="nav nav-tabs align-items-center justify-content-center">
+                            <li class="nav-item col-sm-12 col-lg-4">
+                                <a class="nav-link active" aria-current="page" href="#">Simple Bookmarking</a>
+                            </li>
+                            <li class="nav-item col-sm-12 col-lg-4">
+                                <a class="nav-link" href="#">Speedy Searching</a>
+                            </li>
+                            <li class="nav-item col-sm-12 col-lg-4">
+                                <a class="nav-link" href="#">Easy Sharing</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </section>
+
+
+
+            </div>
+        </section>
+
+        <!--Bookmark in one click-->
+        <div class="row mt-5 d-flex align-items-center justify-content-center">
+            <div class="col-sm-12 col-lg-6">
+                <img src="/images/illustration-features-tab-1.svg" class="img-fluid" alt="tab2">
             </div>
 
-            <div class="col-sm-12 col-lg-7 ps-5">
-                <img src="/images/illustration-hero.svg" class="img-fluid" alt="tab1">
+            <div class="col-sm-12 col-lg-6 p-5 lh-sm fw-normal text-center text-lg-start">
+                <h4>Bookmark in one click</h4>
+                <p class="fs-6 text-muted mt-3"> Organize your bookmarks hovewer you like. Our simple drag-and-drop
+                    interface gives you complete control over how you manage your favorite sites.</p>
+                <button type="button" class="btn btn-primary">More Info</button>
             </div>
-
         </div>
+
+        <section class="download-extentions">
+            <section class="download-info">
+                <div class="row align-items-center justify-content-center mt-5 p-5">
+                    <div class="col-12 col-lg-6 text-center lh-sm fw-normal">
+                        <h4>Download the extension</h4>
+                        <p class="fs-6 text-muted mt-3">We've got more browsers in the pipeline. Please do let us know
+                            if
+                            you've got
+                            a favorite you'd like us to prioritize.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="download-icon-browsers">
+
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-lg-3 p-2 mx-3">
+                        <div class="card text-center">
+                            <div class="card-body m-2 lh-sm">
+                                <img src="/images/logo-chrome.svg" class="img-fluid" alt="chrome">
+                                <h5 class="card-title pt-3">Add to Chrome</h5>
+                                <p class="h6 text-muted">Minimum version 62</p>
+                                <img src="/images/bg-dots.svg" class="img-fluid" alt="dots">
+                                <a href="#" class="btn btn-primary mt-3" tabindex="-1" aria-disabled="true"
+                                    role="button" data-bs-toggle="button">Add & Install Extensions</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-3 p-2 mx-3 mt-lg-4">
+                        <div class="card text-center">
+                            <div class="card-body m-2 lh-sm">
+                                <img src="/images/logo-firefox.svg" class="img-fluid" alt="firefox">
+                                <h5 class="card-title pt-3">Add to Firefox</h5>
+                                <p class="h6 text-muted">Minimum version 55</p>
+                                <img src="/images/bg-dots.svg" class="img-fluid" alt="dots">
+                                <a href="#" class="btn btn-primary mt-3" tabindex="-1" aria-disabled="true"
+                                    role="button" data-bs-toggle="button">Add & Install Extensions</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-3 p-2 mx-3 mt-lg-5">
+                        <div class="card text-center">
+                            <div class="card-body m-2 lh-sm">
+                                <img src="/images/logo-opera.svg" class="img-fluid" alt="opera">
+                                <h5 class="card-title pt-3">Add to Opera</h5>
+                                <p class="h6 text-muted">Minimum version 46</p>
+                                <img src="/images/bg-dots.svg" class="img-fluid" alt="dots">
+                                <a href="#" class="btn btn-primary mt-3" tabindex="-1" aria-disabled="true"
+                                    role="button" data-bs-toggle="button">Add & Install Extensions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="FAQ">
+            <section class="FAQ-info">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-lg-6 p-2 m-4 text-center lh-sm fw-normal">
+                        <h3>Frequantly Asked Questions</h3>
+                        <p class="fs-6 text-muted mt-3">Here are some of our FAQs. If you have any other questions you'd
+                            like
+                            answered please feel free to mail us.</p>
+                    </div>
+            </section>
+
+            <section class="FAQ-drop-list">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-lg-6 p-2 text-center lh-sm fw-normal">
+                        <!-- make it list dropdown -->What is bookmark?<br>
+                        How can I request a new browser?<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Molestiae
+                        aperiam voluptate suscipit est commodi porro repellat alias obcaecati, omnis nulla amet voluptas
+                        numquam
+                        ipsam, minus sint inventore nihil dolores blanditiis exercitationem fugit dignissimos
+                        necessitatibus
+                        unde
+                        debitis magnam. Sit temporibus provident et nulla eligendi magni ducimus delectus? Earum ipsum
+                        quam
+                        aliquam.<br>
+                        What about other Chromium browsers?<br>
+                        <button type="button" class="btn btn-primary">More Info</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
     </main>
 
-    <section class="container features p-5">
+    <footer class="container">
 
-        <section class="feature-info">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-sm-12 col-lg-6 p-2 m-4 text-center">
-                    <h3>Features</h3>
-                    <p class="fs-6 text-muted mt-3">Our aim is to make it quick and easy for you to access your
-                        favourite
-                        websites. Your bookmarks sync between your device so you can access them on the go.</p>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="feature-tabs">
-            <div class="row align-items-center justify-content-center">
-                <nav class="col-sm-12 col-lg-8 text-center">
-                    <ul class="nav nav-tabs align-items-center justify-content-center">
-                        <li class="nav-item col-sm-12 col-lg-4">
-                            <a class="nav-link active" aria-current="page" href="#">Simple Bookmarking</a>
-                        </li>
-                        <li class="nav-item col-sm-12 col-lg-4">
-                            <a class="nav-link" href="#">Speedy Searching</a>
-                        </li>
-                        <li class="nav-item col-sm-12 col-lg-4">
-                            <a class="nav-link" href="#">Easy Sharing</a>
-                        </li>
-                    </ul>
-                </nav>
-        </section>
-
-
-
-        </div>
-    </section>
-
-    <!--Bookmark in one click-->
-    <div class="row mt-5 d-flex align-items-center justify-content-center">
-        <div class="col-sm-12 col-lg-6">
-            <img src="/images/illustration-features-tab-1.svg" class="img-fluid" alt="tab2">
-        </div>
-
-        <div class="col-sm-12 col-lg-6 p-5 lh-sm fw-normal text-center text-lg-start">
-            <h4>Bookmark in one click</h4>
-            <p class="fs-6 text-muted mt-3"> Organize your bookmarks hovewer you like. Our simple drag-and-drop
-                interface gives you complete control over how you manage your favorite sites.</p>
-            <button type="button" class="btn btn-primary">More Info</button>
-        </div>
-    </div>
-
-    <section class="container download-extentions p-5">
-        <section class="download-info">
-            <div class="row align-items-center justify-content-center mt-5 p-5">
-                <div class="col-12 col-lg-6 text-center lh-sm fw-normal">
-                    <h4>Download the extension</h4>
-                    <p class="fs-6 text-muted mt-3">We've got more browsers in the pipeline. Please do let us know if
-                        you've got
-                        a favorite you'd like us to prioritize.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="download-icon-browsers">
-
-            <div class="row justify-content-center">
-                <div class="col-sm-12 col-lg-3 p-2 mx-3">
-                    <div class="card text-center">
-                        <div class="card-body m-2 lh-sm">
-                            <img src="/images/logo-chrome.svg" class="img-fluid" alt="chrome">
-                            <h5 class="card-title pt-3">Add to Chrome</h5>
-                            <p class="h6 text-muted">Minimum version 62</p>
-                            <img src="/images/bg-dots.svg" class="img-fluid" alt="dots">
-                            <a href="#" class="btn btn-primary mt-3" tabindex="-1" aria-disabled="true" role="button"
-                                data-bs-toggle="button">Add & Install Extensions</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-3 p-2 mx-3 mt-4">
-                    <div class="card text-center">
-                        <div class="card-body m-2 lh-sm">
-                            <img src="/images/logo-firefox.svg" class="img-fluid" alt="firefox">
-                            <h5 class="card-title pt-3">Add to Firefox</h5>
-                            <p class="h6 text-muted">Minimum version 55</p>
-                            <img src="/images/bg-dots.svg" class="img-fluid" alt="dots">
-                            <a href="#" class="btn btn-primary mt-3" tabindex="-1" aria-disabled="true" role="button"
-                                data-bs-toggle="button">Add & Install Extensions</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-3 p-2 mx-3 mt-5">
-                    <div class="card text-center">
-                        <div class="card-body m-2 lh-sm">
-                            <img src="/images/logo-opera.svg" class="img-fluid" alt="opera">
-                            <h5 class="card-title pt-3">Add to Opera</h5>
-                            <p class="h6 text-muted">Minimum version 46</p>
-                            <img src="/images/bg-dots.svg" class="img-fluid" alt="dots">
-                            <a href="#" class="btn btn-primary mt-3" tabindex="-1" aria-disabled="true" role="button"
-                                data-bs-toggle="button">Add & Install Extensions</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
-
-    <section class="container FAQ p-5">
-        <section class="FAQ-info">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-12 col-lg-6 p-2 m-4 text-center lh-sm fw-normal">
-                    <h3>Frequantly Asked Questions</h3>
-                    <p class="fs-6 text-muted mt-3">Here are some of our FAQs. If you have any other questions you'd
-                        like
-                        answered please feel free to mail us.</p>
-                </div>
-        </section>
-
-        <section class="FAQ-drop-list">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-12 col-lg-6 p-2 text-center lh-sm fw-normal">
-                    <!-- make it list dropdown -->What is bookmark?<br>
-                    How can I request a new browser?<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
-                    aperiam voluptate suscipit est commodi porro repellat alias obcaecati, omnis nulla amet voluptas numquam
-                    ipsam, minus sint inventore nihil dolores blanditiis exercitationem fugit dignissimos necessitatibus
-                    unde
-                    debitis magnam. Sit temporibus provident et nulla eligendi magni ducimus delectus? Earum ipsum quam
-                    aliquam.<br>
-                    What about other Chromium browsers?<br>
-                    <button type="button" class="btn btn-primary">More Info</button>
-                </div>
-            </div>
-        </section>
-    </section>
-
-
+    </footer>
 </body>
 
 </html>
