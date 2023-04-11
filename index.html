@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="container-fluid sticky-top bg-light p-auto">
+    <header class="container-fluid sticky-top bg-light">
         <nav class="navbar navbar-expand-lg">
             <form class="container justify-content-between">
                 <img src="/images/logo-bookmark.svg" class="image" alt="logo-bookmark">
@@ -341,7 +341,7 @@
 
     </main>
 
-    <footer class="container-fluid justify-content-center">
+    <footer class="container-fluid">
         <section class="contact-info bg-primary text-light fw-lighter">
             <div class="row p-5">
                 <div class="col-12 text-center py-3">
@@ -352,8 +352,8 @@
                 <div class="row">
                     <form action="/action_page.php" class="was-validated">
                         <div class="col-12 d-flex flex-wrap flex-lg-row flex-sm-column justify-content-center">
-                            <input class="form-control w-auto m-2 text-center" type="email" placeholder="Enter your email address"
-                                aria-label="Search" required>
+                            <input class="form-control w-auto m-2" type="email"
+                                placeholder="Enter your email address" aria-label="Search" required>
                             <button class="btn btn-danger text-white m-2 mx-lg-4" type="submit">Contact Us</button>
                         </div>
                         <div class="valid-feedback">Valid.</div>
@@ -363,11 +363,30 @@
 
         </section>
 
-        <section class="footer-navbar">
-            <nav>
+        <section class="footer-navbar bg-dark navbar-light p-4">
+            <nav class="navbar container navbar-expand-lg justify-content-center">
+                <img src="/images/logo-bookmark.svg" class="image border" alt="logo-bookmark">
+                <div class="navbar-collapse justify-content-start ms-lg-5" id="navbarNav">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link text-light" aria-current="page" href="#">FEATURES</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link text-light" href="#">PRICING</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link text-light" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
 
+                <div class="footer-icons justify-content-end me-lg-5">
+                    <img class="mx-lg-2" src="/images/icon-facebook.svg" alt="facebook-logo">
+                    <img src="/images/icon-twitter.svg" alt="twitter-logo">
+                </div>
+                </div>
+                </form>
             </nav>
-
         </section>
 
     </footer>
